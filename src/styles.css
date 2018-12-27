@@ -1,0 +1,21 @@
+/* You can add global styles to this file, and also import other style files */
+.item{
+  display: block;
+  border: 1px solid #cdcdcd;
+  margin: 5px;
+}
+.item:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.wrapper{
+}
+.item-active{
+  background: transparent;
+  border: 1px dashed #cdcdcd;
+}
+
+.item-active *{
+  opacity: 0;
+}

@@ -1,0 +1,22 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<h3>xs-sortable</h3>
+<div class="row">
+  <div class="col-xs-6 col-6 col-md-5 col-lg-3">
+    <xs-sortable
+      [(ngModel)]="itemStringsLeft"
+      itemClass="item"
+      itemActiveClass="item-active"
+      wrapperClass="wrapper"
+    ></xs-sortable>
+    <pre class="code-preview">model: {{ itemStringsLeft | json }}</pre>
+  </div>
+  <div class="col-xs-6 col-6 col-md-5 col-lg-3">
+    <xs-sortable
+      [(ngModel)]="itemStringsRight"
+      itemClass="item"
+      itemActiveClass="item-active"
+      wrapperClass="wrapper"
+    ></xs-sortable>
+    <pre class="code-preview">model: {{ itemStringsRight | json }}</pre>
+  </div>
+</div>
